@@ -17,11 +17,10 @@
 ## مراحل
 
 ## ** دانلود Apple Configurator یا Imazing profile editor ** :
-    
-	•	دانلود Apple Configurator برای macOS
-	•	دانلود Imazing Profile Editor برای ویندوز
 
-   
+- [Apple Configurator برای macOS](https://apps.apple.com/us/app/apple-configurator/id1037126344?mt=12)
+- [Imazing Profile Editor برای ویندوز](https://apps.microsoft.com/detail/9PHS9QLCQ5S4?hl=en-us&gl=US)
+
 
 2. **ایجاد پروفایل جدید**:
    - اجرای برنامه Apple Configurator
