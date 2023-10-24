@@ -5,6 +5,7 @@
 
 کد ها به صورت template یا پوسته با توجه به همه اوپراتورها گذاشته شده فقظ با uuid Generator  کدهای همتا رو عوض کنید و فایل سیو کنید
 در template ها فقط این قسمت عوض کنید 
+
 ...
 	<key>PayloadType</key>
 			<string>com.apple.cellular</string>
@@ -13,6 +14,7 @@
 			<key>PayloadVersion</key>
 			<integer>1</integer>
    ...
+
 
 
 
