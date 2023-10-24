@@ -23,8 +23,7 @@
 
 هپچنین در کد قابلیت شخصی سازی پروکسی یا ایپی اختصاصی برای ساخت پروفایل و دسترسی اینترنت فراهم شده  
 
-<a target="_blank" href="https://imageupload.io/DU9rbfV07nnxiaZ"><img  src="https://imageupload.io/ib/e4EYasv0Ypt8RiB_1698158642.jpeg" alt="IMG_5664.jpeg"/></a>
-
+<a href="https://ibb.co/Zf3P4D7"><img src="https://i.ibb.co/yND1vj7/IMG-5664.jpg" alt="IMG-5664" border="0"></a>
 
 # روش دوم 
 
