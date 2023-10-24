@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>AllowedProtocolMaskInDomesticRoaming</key>
+				<integer>1</integer>
+				<key>APNs</key>
+				<array>
+					<dict>
+						<key>AuthenticationType</key>
+						<string>PAP</string>
+						<key>EnableXLAT464</key>
+						<false />
+						<key>Name</key>
+						<string>mtnirancell</string>
+						<key>ProxyPort</key>
+						<integer>8181</integer>
+						<key>ProxyServer</key>
+						<string>11.131.26.138</string>
+					</dict>
+				</array>
+				<key>AttachAPN</key>
+				<dict>
+					<key>AllowedProtocolMask</key>
+					<integer>1</integer>
+					<key>Name</key>
+					<string>Irancell</string>
+				</dict>
+				<key>PayloadDescription</key>
+				<string>Configures cellular data settings</string>
+				<key>PayloadDisplayName</key>
+				<string>Cellular</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.cellular.364E3CC3-F3CA-4936-9038-C6E556F0247D</string>
+				<key>PayloadType</key>
+				<string>com.apple.cellular</string>
+				<key>PayloadUUID</key>
+				<string>4e4a565a-5483-4a9b-b9af-1976068b5af3</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+		<key>PayloadDisplayName</key>
+		<string>APN</string>
+		<key>PayloadIdentifier</key>
+		<string>APN-46DF-454D-89AF-9E7B277AD4CB</string>
+		<key>PayloadOrganization</key>
+		<string>Mobile-Mall-Urmia</string>
+		<key>PayloadRemovalDisallowed</key>
+		<false />
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>3be49d14-fb7b-4dbc-a9d3-737786055ad5</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+	</dict>
+</plist>
