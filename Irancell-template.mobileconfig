@@ -32,7 +32,7 @@
 				<key>PayloadDescription</key>
 				<string>Configures cellular data settings</string>
 				<key>PayloadDisplayName</key>
-				<string>Cellular</string>
+				<string>Cellular</
 				<key>PayloadIdentifier</key>
 				<string>com.apple.cellular.364E3CC3-F3CA-4936-9038-C6E556F0247D</string>
 				<key>PayloadType</key>
