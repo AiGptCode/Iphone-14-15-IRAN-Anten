@@ -15,7 +15,7 @@ pyinstaller --onefile --windowed uuid-genarator.py
 
 در template ها  برای UUID این قسمت و جای کد جدید بگذارید
 
-
+ 
 	<key>PayloadType</key>
 			<string>com.apple.cellular</string>
 			<key>PayloadUUID</key>
