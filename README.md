@@ -9,7 +9,7 @@
 (فایل پایتون به راحتی exe تبدیل کنید)
 
 pip install pyinstaller
-
+ 
 pyinstaller --onefile --windowed uuid-genarator.py 
 
 
