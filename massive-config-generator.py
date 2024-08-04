@@ -1,50 +1,66 @@
-‏import uuid
-#ابتداکد شبکه ها که شخصی سازس کردید جایگیزین کنید 
-# کدهای شبکه
-‏network_configs = {
-‏    "All Network": {
-        # تنظیمات کانفیگ All Network اینجا وارد شوند
-    },
-‏    "Hamrah Aval": {
-        # تنظیمات کانفیگ Hamrah Aval اینجا وارد شوند
-    },
-‏    "Irancel": {
-        # تنظیمات کانفیگ Irancel اینجا وارد شوند
-    },
-‏    "Rightel": {
-        # تنظیمات کانفیگ Rightel اینجا وارد شوند
-    },
-}
-
-# انتخاب کانفیگ
-‏print("لطفاً یک کانفیگ را انتخاب کنید:")
-‏for index, config_name in enumerate(network_configs.keys(), start=1):
-‏    print(f"{index}. {config_name}")
-
-‏selected_index = int(input("شماره کانفیگ مورد نظر خود را وارد کنید: "))
-‏selected_config_name = list(network_configs.keys())[selected_index - 1]
-‏selected_config = network_configs[selected_config_name]
-
-# تنظیمات پروکسی
-‏need_proxy = input("آیا نیاز به تنظیمات پروکسی دارید؟ (بله/خیر): ").strip().lower()
-‏if need_proxy == "بله":
-‏    proxy_server = input("لطفاً آدرس سرور پروکسی را وارد کنید: ")
-‏    proxy_port = int(input("لطفاً پورت پروکسی را وارد کنید: ")
-‏else:
-‏    proxy_server = ""
-‏    proxy_port = 0
-
-# ایجاد شناسه‌های یکتا با استفاده از کتابخانه uuid
-‏unique_ids = [str(uuid.uuid4()) for _ in range(5)]  # می‌توانید تعداد شناسه‌ها را تغییر دهید
-
-# اضافه کردن شناسه‌های یکتا به کانفیگ
-‏selected_config["UniqueIDs"] = unique_ids
-
-# اضافه کردن تنظیمات پروکسی اگر نیاز باشد
-‏if need_proxy == "بله":
-‏    selected_config["ProxyServer"] = proxy_server
-‏    selected_config["ProxyPort"] = proxy_port
-
-# نمایش کانفیگ نهایی
-‏print("\nکانفیگ نهایی:")
-‏print(selected_config)
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>APNs</key>
+				<array>
+					<dict>
+						<key>AllowedProtocolMask</key>
+						<integer>1</integer>
+						<key>AllowedProtocolMaskInDomesticRoaming</key>
+						<integer>1</integer>
+						<key>AllowedProtocolMaskInRoaming</key>
+						<integer>1</integer>
+						<key>AuthenticationType</key>
+						<string>CHAP</string>
+						<key>DefaultProtocolMask</key>
+						<integer>1</integer>
+						<key>EnableXLAT464</key>
+						<true />
+						<key>Name</key>
+						<string>mcinet</string>
+					</dict>
+					<dict>
+						<key>AllowedProtocolMask</key>
+						<integer>1</integer>
+						<key>AllowedProtocolMaskInDomesticRoaming</key>
+						<integer>1</integer>
+						<key>AllowedProtocolMaskInRoaming</key>
+						<integer>1</integer>
+						<key>AuthenticationType</key>
+						<string>PAP</string>
+						<key>DefaultProtocolMask</key>
+						<integer>1</integer>
+						<key>EnableXLAT464</key>
+						<true />
+						<key>Name</key>
+						<string>mcinet</string>
+					</dict>
+				</array>
+				<key>PayloadDisplayName</key>
+				<string>Cellular</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.cellular.1151236d-36c4-4d89-8f80-392d167c104d</string>
+				<key>PayloadType</key>
+				<string>com.apple.cellular</string>
+				<key>PayloadUUID</key>
+				<string>c25b9415-e1ea-4713-b48d-03c3dd5e3de9</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+		<key>PayloadDisplayName</key>
+		<string>IMEI351542662212758</string>
+		<key>PayloadIdentifier</key>
+		<string>ab70249a-44de-4dd3-b5bb-c6be267e68a7</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>0270eb75-b990-4bfd-971e-1ead0e45be18</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+	</dict>
+</plist>
