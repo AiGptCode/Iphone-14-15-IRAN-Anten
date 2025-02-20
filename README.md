@@ -6,7 +6,7 @@ https://aigptcode.github.io/iphoneprofile/
 
   <a href="https://ibb.co/whDY2tw"><img src="https://i.ibb.co/Ld4vsKJ/IMG-5707.jpg" alt="IMG-5707" border="0"></a>
    
-  
+   
 ## اموزش ساخت پروفایل یکتا
  
 کد ها به صورت template یا پوسته با توجه به همه اوپراتورها گذاشته شده فقط با uuid Generator که با زبان پایتون نوشته شده کدهای همتا جدید بسازید و با قبلی ها عوض کنید و فایل سیو کنید
